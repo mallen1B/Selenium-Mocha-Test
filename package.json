@@ -1,0 +1,16 @@
+{
+  "name": "testwithmocha",
+  "version": "1.0.0",
+  "description": "testing selenium with mocha and chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test --timeout 10000"
+  },
+  "author": "mallen",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
